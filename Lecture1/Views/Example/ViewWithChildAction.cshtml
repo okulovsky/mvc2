@@ -1,0 +1,12 @@
+﻿@model Lecture1.Models.Book
+@{
+    ViewBag.Title = "ViewWithChildAction";
+}
+
+@{ Html.RenderPartial("BookView", Model); }
+
+<img src="@Url.Content("~/Content/BookCovers/"+Model.ImageId+".jpg")" />
+
+<h2>Лидер продаж:</h2>
+
+@{ Html.RenderAction("ChildAction"); }

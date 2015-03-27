@@ -1,0 +1,17 @@
+﻿@model Lecture1.Models.Book
+
+@{
+    ViewBag.Title = "Model";
+}
+
+<h2>Рекомендуемый учебник</h2>
+<b>
+    @foreach (var author in @Model.Authors)
+    {
+        <text>@(author.FirstName[0]). @author.LastName</text>
+    }
+</b><i>@Model.Title</i>. @Model.Publisher-@(Model.Year).<br/>
+
+<img src="@Url.Content("~/Content/BookCovers/"+Model.ImageId+".jpg")"/>
+
+

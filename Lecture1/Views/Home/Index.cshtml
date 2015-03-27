@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Демонстрация";
+}
+
+<h2>Демонстрация</h2>
+<br /> @Html.ActionLink("Hello, MVC!", "String", "Example")
+<br /> @Html.ActionLink("Redirect", "Redirect", "Example")
+<br /> @Html.ActionLink("Файл", "File", "Example")
+<br /> @Html.ActionLink("Изображение", "Image", "Example")
+<br /> @Html.ActionLink("Представление", "Page", "Example")
+<br /> @Html.ActionLink("Типизированное представление", "Model", "Example")
+<br /> @Html.ActionLink("Представление с частичными представлениями и дочерними действиями", "ViewWithChildAction", "Example")
+<br/ > @Html.ActionLink("Передача параметра в действие", "Parameter", "Example", new { id = 1 }, null)
+<br /> @Html.ActionLink("Пользовательское представление", "CustomView", "CustomView")
+<br /> @Html.ActionLink("Пользовательский редирект", "CustomRedirect", "CustomView")
+<br /> @Html.ActionLink("Пользовательский контроллер", "Index", "Custom")
+<br /> @Html.ActionLink("Пользовательский контроллер с действием", "File", "Custom")

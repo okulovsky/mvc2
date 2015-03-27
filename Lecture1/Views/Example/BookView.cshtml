@@ -1,0 +1,8 @@
+﻿@model Lecture1.Models.Book
+
+<b>
+    @foreach (var author in @Model.Authors)
+    {
+        <text>@(author.FirstName[0]). @author.LastName</text>
+    }
+</b><i>@Model.Title</i>. @Model.Publisher-@(Model.Year).<br />
