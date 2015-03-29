@@ -1,7 +1,23 @@
 ﻿
 @{
-    ViewBag.Title = "Page";
+    ViewBag.Title = "Hello, Razor!";
 }
 
-<h2>Hello, MVC!</h2>
+<h2>Hello, Razor!</h2>
 
+<p>Вы можете набирать обычный <b>HTML</b>-<i>код</i></p>
+
+<p>Или вставлять код на C# @string.Format("{0:dd.MM.yyyy}",DateTime.Now)</p>
+
+<p>Или чередовать одно с другим:</p>
+<table border="1">
+    @for(var i=1;i<10;i++)
+    {
+        <tr>
+            @for (var j=1;j<10;j++)
+            { 
+                <td>@(i*j)</td>
+            }
+        </tr>
+    }
+</table>
