@@ -26,5 +26,8 @@ namespace Entity
         }
     
         public virtual DbSet<Shop> Shops { get; set; }
+        public virtual DbSet<Author> Authors { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<Publisher> Publishers { get; set; }
     }
 }

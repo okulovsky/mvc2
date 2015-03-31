@@ -6,6 +6,11 @@
     <edmx:Diagrams>
       <Diagram DiagramId="26876fcf8d544d7f9439ef6be3d82ac5" Name="Diagram1">
         <EntityTypeShape EntityType="EntityFramework.Shop" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityFramework.Author" Width="1.5" PointX="8" PointY="0.875" />
+        <EntityTypeShape EntityType="EntityFramework.Book" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="EntityFramework.Publisher" Width="1.5" PointX="3.375" PointY="0.875" />
+        <AssociationConnector Association="EntityFramework.FK_dbo_Books_dbo_Publishers_Publisher_Id" />
+        <AssociationConnector Association="EntityFramework.BookAuthors" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
