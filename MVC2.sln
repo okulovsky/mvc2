@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 1 - Hello, MVC!", "Lecture 1 - Hello, MVC!\Lecture 1 - Hello, MVC!.csproj", "{1F674960-3DE0-4A00-85FC-A338AF7E27D7}"
 EndProject
@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.1 - ADO.NET and E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.2 - CodeFirst Approach", "Lecture 2.2 - Entity CodeFirst\Lecture 2.2 - CodeFirst Approach.csproj", "{716EB953-8371-4C4C-BFB9-EC2381D691EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture3", "Lecture3\Lecture3.csproj", "{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 3 - IoC, DI, Mock and friends", "Lecture 3 - DI, IoC, Mock and friends\Lecture 3 - IoC, DI, Mock and friends.csproj", "{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture3.Tests", "Lecture3.Tests\Lecture3.Tests.csproj", "{12B841C8-7D19-436D-A2A9-50C1ED1503CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 3.Tests", "Lecture 3.Tests\Lecture 3.Tests.csproj", "{12B841C8-7D19-436D-A2A9-50C1ED1503CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

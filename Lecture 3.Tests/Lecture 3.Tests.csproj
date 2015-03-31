@@ -95,9 +95,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lecture3\Lecture3.csproj">
+    <ProjectReference Include="..\Lecture 3 - DI, IoC, Mock and friends\Lecture 3 - IoC, DI, Mock and friends.csproj">
       <Project>{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}</Project>
-      <Name>Lecture3</Name>
+      <Name>Lecture 3 - IoC, DI, Mock and friends</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
