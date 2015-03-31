@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture1", "Lecture1\Lecture1.csproj", "{1F674960-3DE0-4A00-85FC-A338AF7E27D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture2.1", "Lecture2.1\Lecture2.1.csproj", "{91BA1F04-03DD-41AA-97E8-450B540BAA4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1F674960-3DE0-4A00-85FC-A338AF7E27D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F674960-3DE0-4A00-85FC-A338AF7E27D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F674960-3DE0-4A00-85FC-A338AF7E27D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BA1F04-03DD-41AA-97E8-450B540BAA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BA1F04-03DD-41AA-97E8-450B540BAA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BA1F04-03DD-41AA-97E8-450B540BAA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BA1F04-03DD-41AA-97E8-450B540BAA4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
