@@ -5,17 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityCodeFirst
+
+public class BookshopContext : DbContext
 {
-    public class BookshopContext : DbContext
+    public DbSet<Shop> Shops { get; set; }
+
+    public BookshopContext()
+        : base("DefaultConnection")
     {
-        public DbSet<Shop> Shops { get; set; }
+        Database.SetInitializer<BookshopContext>(new BookshopInitializer());
 
-        public BookshopContext()
-            : base("DefaultConnection") 
-        {
-            Database.SetInitializer<BookshopContext>(new BookshopInitializer());
-
-        }
     }
 }
