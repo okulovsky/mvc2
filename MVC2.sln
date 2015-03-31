@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.1 - ADO.NET and E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.2 - CodeFirst Approach", "Lecture 2.2 - Entity CodeFirst\Lecture 2.2 - CodeFirst Approach.csproj", "{716EB953-8371-4C4C-BFB9-EC2381D691EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture3", "Lecture3\Lecture3.csproj", "{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture3.Tests", "Lecture3.Tests\Lecture3.Tests.csproj", "{12B841C8-7D19-436D-A2A9-50C1ED1503CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{716EB953-8371-4C4C-BFB9-EC2381D691EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{716EB953-8371-4C4C-BFB9-EC2381D691EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{716EB953-8371-4C4C-BFB9-EC2381D691EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F07FA0A-06B9-4F0D-BD52-0CD1FC96BFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B841C8-7D19-436D-A2A9-50C1ED1503CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B841C8-7D19-436D-A2A9-50C1ED1503CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B841C8-7D19-436D-A2A9-50C1ED1503CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B841C8-7D19-436D-A2A9-50C1ED1503CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

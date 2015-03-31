@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Lecture01.Controllers
+namespace Lecture1.Controllers
 {
 	public class CustomViewController : Controller
 	{

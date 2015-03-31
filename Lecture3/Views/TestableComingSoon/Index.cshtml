@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Lecture3.Models.Book>
+
+
+@{
+    ViewBag.Title = "Скоро в продаже";
+}
+
+<h2>Скоро в продаже</h2>
+
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>@book.Title (@string.Format("{0:dd.MM.yyyy}", book.AvailabilityDate))</li>
+    }
+</ul>
