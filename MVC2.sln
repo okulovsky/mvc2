@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 1 - Hello, MVC!", "Lecture1 - Hello, MVC!\Lecture 1 - Hello, MVC!.csproj", "{1F674960-3DE0-4A00-85FC-A338AF7E27D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 1 - Hello, MVC!", "Lecture 1 - Hello, MVC!\Lecture 1 - Hello, MVC!.csproj", "{1F674960-3DE0-4A00-85FC-A338AF7E27D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.1 - ADO.NET and EntityFramework", "Lecture2.1 - ADO.NET and EntityFramework\Lecture 2.1 - ADO.NET and EntityFramework.csproj", "{91BA1F04-03DD-41AA-97E8-450B540BAA4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.1 - ADO.NET and EntityFramework", "Lecture 2.1 - ADO.NET and EntityFramework\Lecture 2.1 - ADO.NET and EntityFramework.csproj", "{91BA1F04-03DD-41AA-97E8-450B540BAA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture2.2 - CodeFirst Approach", "Lecture2.2 - Entity CodeFirst\Lecture2.2 - CodeFirst Approach.csproj", "{716EB953-8371-4C4C-BFB9-EC2381D691EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 2.2 - CodeFirst Approach", "Lecture 2.2 - Entity CodeFirst\Lecture 2.2 - CodeFirst Approach.csproj", "{716EB953-8371-4C4C-BFB9-EC2381D691EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
