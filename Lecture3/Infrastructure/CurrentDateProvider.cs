@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Lecture3.Models
+namespace Lecture3.Infrastructure
 {
 	public class CurrentDateProvider : ICurrentDateProvider
 	{

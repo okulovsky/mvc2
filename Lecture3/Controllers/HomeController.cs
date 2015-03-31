@@ -13,6 +13,10 @@ namespace Lecture3.Controllers
 			return View();
 		}
 
+        public ActionResult Homework()
+        {
+            return View();
+        }
 
 	}
 }
