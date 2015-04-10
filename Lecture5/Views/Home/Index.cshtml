@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Демонстрация</h2>
+
+@Html.ActionLink("Действие, требующее авторизации", "Index", "Secured") <br/>
+@Html.ActionLink("Завершить сессию","Logout","Account") <br/>
+<hr />
+@Html.ActionLink("Несуществующая страица","Missing","Erroneous") <br/>
+@Html.ActionLink("Действие с \"серьезной\" ошибкой", "Exception", "Erroneous") <br/>
+@Html.ActionLink("Действие с \"не очень серьезной\" ошибкой", "NullException", "Erroneous")<br/>
+@Html.ActionLink("Действие с ошибкой, перехваченной глобально", "ArgumentException", "Erroneous")<br/>
+<hr/>
+@Html.ActionLink("Действие с профайлингом","ProfiledAction")<br/>
