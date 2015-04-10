@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Lecture11.Infrastructure;
+using Lecture11.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +18,8 @@ namespace Lecture4
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ModelBinders.Binders.Add(typeof(int[]), new IntArrayModelBinder());
+            ModelBinders.Binders.Add(typeof(User), new UserModelBinder());
         }
     }
 }
