@@ -1,0 +1,9 @@
+﻿@using Lecture4.Models
+@model Education
+
+@switch (Model)
+{
+    case Education.Primary: <text>Школьное</text> break;
+    case Education.Bachelor: <text>Бакалавр</text> break;
+    case Education.Master: <text>Магистр</text> break;
+}

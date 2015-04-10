@@ -1,0 +1,25 @@
+﻿@using Lecture4.Models
+@model Education
+
+@Html.DropDownListFor(z => z,
+        new[]
+        {
+            new SelectListItem
+            {
+                Value=Education.Primary.ToString(),
+                Text="Среднее",
+                Selected=Education.Primary==Model
+            },
+            new SelectListItem
+            {
+                Value=Education.Bachelor.ToString(),
+                Text="Бакалавр",
+                Selected=Education.Bachelor==Model
+            },
+            new SelectListItem
+            {
+                Value=Education.Master.ToString(),
+                Text="Магистр",
+                Selected=Education.Master==Model
+            },
+        })

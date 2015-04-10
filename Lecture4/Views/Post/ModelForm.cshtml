@@ -1,0 +1,18 @@
+﻿@using Lecture4.Models
+@model Subsription
+
+@{
+    ViewBag.Title = "Форма по модели";
+}
+
+<h2>Форма по модели</h2>
+
+@Html.DisplayForModel()
+
+<hr/>
+
+@using(Html.BeginForm())
+{ 
+    @Html.EditorForModel()
+    <input type="submit"/>
+}

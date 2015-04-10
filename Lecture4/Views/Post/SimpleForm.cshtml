@@ -1,0 +1,18 @@
+﻿@using Lecture4.Models
+
+@{
+    ViewBag.Title = "Простая форма";
+}
+
+<h2>Простая форма</h2>
+
+@using (Html.BeginForm())
+{
+
+    <text>Поиск:</text> @Html.TextBox("SearchRequest")    <br />
+    @Html.CheckBox("AllWordsOnly") <text>только книги, содержащие все слова</text><br/>
+    @Html.RadioButton("BookType", BookType.Printed)     <text>Отпечатанная книга</text><br />
+    @Html.RadioButton("BookType", BookType.Electronic)  <text>Электронная книга</text><br />
+    @Html.DropDownList("Genre", new SelectList(new[] {  "Детектив", "Фантастика", "Фэнтези"}))
+    <input type="submit" value="Submit" />
+}

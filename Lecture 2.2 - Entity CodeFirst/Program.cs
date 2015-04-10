@@ -17,6 +17,6 @@ class Program
         AppDomain.CurrentDomain.SetData("DataDirectory", @absolute);
 
         var context = new BookshopContext();
-
+        foreach (var e in context.Authors) ;
     }
 }
