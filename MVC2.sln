@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 3.Tests", "Lecture 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 4 - POST", "Lecture 4 - POST\Lecture 4 - POST.csproj", "{B20B39F3-FD35-434E-AD8F-534FBCB856A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 5 - Фильтры и аутентификация", "Lecture5\Lecture 5 - Фильтры и аутентификация.csproj", "{8B388EE8-23F3-4E09-824D-E00A03CF40ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 5 - Фильтры и аутентификация", "Lecture5 - Фильты и аутентификация\Lecture 5 - Фильтры и аутентификация.csproj", "{8B388EE8-23F3-4E09-824D-E00A03CF40ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture6", "Lecture6\Lecture6.csproj", "{BDC1E1C4-F4CD-42CB-96C6-3866734BF085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8B388EE8-23F3-4E09-824D-E00A03CF40ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B388EE8-23F3-4E09-824D-E00A03CF40ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B388EE8-23F3-4E09-824D-E00A03CF40ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC1E1C4-F4CD-42CB-96C6-3866734BF085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC1E1C4-F4CD-42CB-96C6-3866734BF085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC1E1C4-F4CD-42CB-96C6-3866734BF085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC1E1C4-F4CD-42CB-96C6-3866734BF085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

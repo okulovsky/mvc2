@@ -1,0 +1,26 @@
+﻿@model Lecture06.Models.ContactsDDD
+
+@{
+    Layout = null;
+    HtmlHelper.ClientValidationEnabled = true;
+    HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Клиентская валидация</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary()
+        @Html.EditorForModel()
+        <br />
+        <input type="submit" />
+    }
+</body>
+</html>
