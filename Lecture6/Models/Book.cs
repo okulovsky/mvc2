@@ -1,13 +1,17 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
 namespace Lecture6.Models
 {
+    [JsonObject]
     public class Book
     {
+        [JsonProperty]
         public string Author { get; set; }
+        [JsonProperty]
         public string Title { get; set; }
 
         public static IEnumerable<Book> GetBooks()

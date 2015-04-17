@@ -13,6 +13,13 @@ namespace Lecture6
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+
+            routes.MapRoute(
+                name: "FilterJSON",
+                url: "Catalog/JSON",
+                defaults: new { controller = "Catalog", action = "FilteredBooksJSON" }
+                );
+
             routes.MapRoute(
                 name: "Filter",
                 url: "Catalog/Filter",

@@ -1,0 +1,49 @@
+﻿@model string 
+@{
+ViewBag.Title = "Index";
+AjaxOptions ajaxOpts = new AjaxOptions
+    {
+        UpdateTargetId = "tabledata",
+        LoadingElementId = "loading",
+        LoadingElementDuration = 2000,
+    };
+}
+
+
+
+<table>
+    <thead>
+    <th>Автор</th>
+    <th>Hазвание</th>
+    </thead>
+    <tbody id="tabledata">
+        @Html.Action("FilteredBooks", new { author = Model })
+    </tbody>
+</table>
+@Html.DropDownList(
+    "author",
+    new SelectList(
+        Lecture6.Models.Book.GetAuthors(),
+        Model ?? ""))
+
+@section Scripts{
+
+<script>
+    $(document).ready(function () {
+        $("#author").change(function()
+        {
+            $.ajax({
+                url: "@Url.Action("FilteredBooksJSON","Catalog")/?author=" + $("#author").val(),
+                success: function (data) {
+                    $("#tabledata").html("");
+                    for (var i in data)
+                    {
+                        $("#tabledata").append("<tr><td>" + data[i].Author + "</td><td>" + data[i].Title+"</td></tr>");
+                    }
+            }
+        });
+    });
+    });
+</script>
+
+    }

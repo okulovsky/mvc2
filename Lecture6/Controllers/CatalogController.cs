@@ -25,5 +25,14 @@ namespace Lecture6
             return PartialView("FilteredBooks",data);
         }
 
+        public ActionResult FilteredBooksJSON(string author)
+        {
+            var data = Book.GetBooks();
+            if (!string.IsNullOrEmpty(author))
+                data = data.Where(z => z.Author == author);
+            var list = data.ToArray();
+            return Json(list, JsonRequestBehavior.AllowGet);
+        }
+
     }
 }
