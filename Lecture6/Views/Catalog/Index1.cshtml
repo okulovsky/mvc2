@@ -1,0 +1,30 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Каталог</h2>
+
+<table>
+    <thead>
+    <th>Автор</th>
+    <th>Hазвание</th>
+    </thead>
+    <tbody id="tabledata">
+        @Html.Action("FilteredBooks", new { author = Model })
+    </tbody>
+</table>
+
+
+
+@using (Html.BeginForm())
+{
+
+    @Html.DropDownList(
+    "author",
+    new SelectList(
+            Lecture6.Models.Book.GetAuthors(),
+            Model ?? ""))
+    <input type="submit" />
+} 

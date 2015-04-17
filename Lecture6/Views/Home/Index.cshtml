@@ -6,3 +6,6 @@
 
 @Html.ActionLink("Серверная валидация", "Server","Validation")<br/>
 @Html.ActionLink("Клиентская валидация", "Client", "Validation")<br />
+<hr/>
+@Html.ActionLink("Запрос без Ajax", "Index", "Catalog", new { ViewName = "Index1" }, null)
+@Html.ActionLink("Ajax.BeginForm", "Index", "Catalog", new { ViewName = "Index2" }, null)

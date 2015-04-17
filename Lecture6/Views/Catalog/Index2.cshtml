@@ -1,0 +1,39 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Index";
+    AjaxOptions ajaxOpts = new AjaxOptions
+    {
+        UpdateTargetId = "tabledata",
+        LoadingElementId = "loading",
+        LoadingElementDuration = 2000
+    };
+}
+
+<h2>Каталог</h2>
+
+
+<div id="loading" style="display:none; color:Red; font-weight:bold">
+    <p>Loading data</p>
+</div>
+
+<table>
+    <thead>
+    <th>Автор</th>
+    <th>Hазвание</th>
+    </thead>
+    <tbody id="tabledata">
+        @Html.Action("FilteredBooks", new { author = Model })
+    </tbody>
+</table>
+
+@using (Ajax.BeginForm(ajaxOpts))
+{
+
+    @Html.DropDownList(
+    "author",
+    new SelectList(
+            Lecture6.Models.Book.GetAuthors(),
+            Model ?? ""))
+    <input type="submit" />
+} 

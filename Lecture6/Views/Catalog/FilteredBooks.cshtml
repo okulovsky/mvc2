@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Lecture6.Models.Book>
+
+@foreach (var e in Model)
+{
+    <tr>
+    <td>@e.Author</td>
+    <td>@e.Title</td>
+    </tr>
+}

@@ -112,11 +112,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CatalogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValidationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\ContactsDDD.cs" />
     <Compile Include="Models\ContactsPlain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -159,6 +161,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Validation\Server.cshtml" />
     <Content Include="Views\Validation\Client.cshtml" />
+    <Content Include="Views\Catalog\FilteredBooks.cshtml" />
+    <Content Include="Views\Catalog\Index1.cshtml" />
+    <Content Include="Views\Catalog\Index3.cshtml" />
+    <Content Include="Views\Catalog\Index2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
